@@ -1,0 +1,91 @@
+.sidebarDash {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    width: 250px;
+    background-color: #F0E0DA;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .sidebarDash a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidebarDash a.active {
+    background-color: #4E0D0D;
+    color: white;
+  }
+
+  .sidebarDash a:hover:not(.active) {
+    background-color: #4E0D0D;
+    color: white;
+  }
+
+  div.contentDash {
+    margin-left: 200px;
+    padding: 45px 80px;
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+.packagepageimages{
+    width: 300px;
+    height: 200px;
+    padding-top: -20px;
+    border-radius: 25px;
+}
+
+.labelfield{
+    margin-bottom: '10px';
+    font-size :'16px';
+    font-weight: bold;
+    color: black;
+    /* font-size:  '16px', */
+    /* fontWeight: 'bold',
+    color: 'white', */
+}
+
+.inputfield{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    /* background: 'black' !important; */
+    margin-bottom: 15px;
+    width: '100%';
+}
+
+.fieldlabel{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-right: 10px;
+}
+
+.fieldinput{
+    padding: "8px";
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
